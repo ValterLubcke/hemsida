@@ -2,6 +2,6 @@
 title: Women of Rajasthan
 layout: default
 description: We, the women.
-type: project
+type: projekt
 order: 4
 ---

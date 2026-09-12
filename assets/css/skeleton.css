@@ -48,7 +48,7 @@
   box-sizing: border-box; }
 
 .column img {
-    padding: 15px 0; }
+    padding: 3px 0; }
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -63,7 +63,7 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-left: 2%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
@@ -534,3 +534,20 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+ .button.active {
+  font-weight: bold;
+}
+
+.main-logo {
+  max-width: 200px !important;
+  height: auto !important;
+}
+
+.team-photo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

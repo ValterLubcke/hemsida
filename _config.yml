@@ -1,8 +1,8 @@
-title: El_photography
+title: BCK Media
 url: https://samd97.github.io/el_photo/
 baseurl: 
 
-author: Disha Patel
+author: Valter Lübcke & Alvin Beckman
 description: Discovering the world with my vision.
 
 include: ['_pages']
@@ -10,28 +10,14 @@ include: ['_pages']
 collections_dir: series
 
 collections:
-  home:
-    output: true
-  pondi:
-    output: true
-  kochi:
+  hem:
     output: true
   rj_women:
     output: true
-  venice:
-    output: true
-  chinatown:
-    output: true
-  rimi:
-    output: true
-  london:
-    output: true
-  mumbai:
+  gymnastik:
     output: true
   cn_fishnet:
     output: true
-  market:
-    output: 
   bastilleday:
     output: true
   kathakali:
@@ -40,3 +26,6 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
+
+exclude:
+  - "**/.DS_Store"
