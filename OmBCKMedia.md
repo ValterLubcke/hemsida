@@ -1,7 +1,7 @@
 ---
 title: Om BCK Media
 layout: rest
-description: Vilka vi bakom BCK Media ör
+description: Vilka vi bakom BCK Media är
 type: parent
 order: 2
 ---
