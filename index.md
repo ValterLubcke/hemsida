@@ -29,31 +29,31 @@ order: 1
 <div class="section main">
 	<div class="container">
 		<div class="row" id="gallery">
-			{% assign coll = site.collections | where: "label", "hem" | first %}
-			{% assign list = coll.files | sort: "basename" %}
-			{% assign l = coll.files.size | divided_by: 3 | ceil %}
-			<div class="one-third column">
-				{% for image in list limit: l %}
-				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-				{% endfor %}
-			</div>
-			<div class="one-third column">
-				{% for image in list offset: l limit: l %}
-				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-				{% endfor %}
-			</div>
-			<div class="one-third column">
-				{% assign l2 = l | times: 2 %}
-				{% for image in list offset: l2 %}
-				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-				{% endfor %}
-			</div>
+		{% assign coll = site.collections | where: "label", "hem" | first %}
+		{% assign list = coll.files | sort: "basename" %}
+		{% assign l = coll.files.size | divided_by: 3 | ceil %}
+		<div class="one-third column">
+			{% for image in list limit: l %}
+			<article class="thumb">
+				<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+			</article>
+			{% endfor %}
 		</div>
+		<div class="one-third column">
+			{% for image in list offset: l limit: l %}
+			<article class="thumb">
+				<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+			</article>
+			{% endfor %}
+		</div>
+		<div class="one-third column">
+			{% assign l2 = l | times: 2 %}
+			{% for image in list offset: l2 %}
+			<article class="thumb">
+				<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+			</article>
+			{% endfor %}
+		</div>
+	</div>
 	</div>
 </div>

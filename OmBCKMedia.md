@@ -9,11 +9,11 @@ order: 2
 	<div class="container">
 		<div class="row">
 			<div class="one-half column">
-				<img class="team-photo" src="{{ "/assets/img/alvin.jpeg" | relative_url }}" alt="Alvin">
+				<img class="team-photo" src="{{ "/assets/img/alvin.jpeg" | relative_url }}" alt="alvin">
 				<p style="text-align: center;">Alvin Beckman - Foto & komunikation</p>
 			</div>
 			<div class="one-half column">
-				<img class="team-photo" src="{{ "/assets/img/valter.jpeg" | relative_url }}" alt="Valter">
+				<img class="team-photo" src="{{ "/assets/img/valter.jpeg" | relative_url }}" alt="valter">
 				<p style="text-align: center;">Valter Lübcke - Foto & digital produktion</p>
 			</div>
 		</div>
